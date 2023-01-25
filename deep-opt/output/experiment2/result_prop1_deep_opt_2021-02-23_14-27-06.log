@@ -1,0 +1,49 @@
+# DeepOpt logs
+specification:
+    - time: "2021-02-23_14-27-06"
+    - property: 1
+    - system_info: {name: phobos90, os: Linux}
+results:
+    - network: 25
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 115}
+          execution_time: 134.7213089466095
+    - network: 50
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 110}
+          execution_time: 18.983177661895752
+    - network: 100
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 5.59476910e+04  2.74781761e+04 -3.14159298e+00  5.60000000e+04
+ -5.60000000e+04  2.27483047e+04  2.49851602e+04  2.49818789e+04
+ -5.31300732e+03  1.61345576e+04]
+          number of local extrema: {min: 5}
+          execution_time: 4.163447141647339
+    - network: 250
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 20}
+          execution_time: 17.34230399131775
+    - network: 500
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 5.59476910e+04 -5.60000000e+04 -3.14159298e+00  1.14500000e+03
+ -5.60000000e+04  3.97175250e+05  5.71875625e+05  7.43379562e+05
+  2.41188453e+05  3.27064629e+04]
+          number of local extrema: {min: 5}
+          execution_time: 5.717432737350464
+    - network: 1000
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 5.59477237e+04 -2.96971702e+04 -2.49604021e-01  5.60000000e+04
+  6.00000000e+01  1.83202172e+05  2.60365234e+05  3.28573219e+05
+  6.10718164e+04  6.34486406e+04]
+          number of local extrema: {min: 5}
+          execution_time: 10.992033958435059
+Mean execution time: 2.392149535483784

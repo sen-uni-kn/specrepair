@@ -1,0 +1,44 @@
+-e deep-opt/
+
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch == 1.13.0
+torchvision == 0.14.0
+torchaudio == 0.13.0
+tensorboard == 2.5.0
+
+onnx2pytorch==v0.2.0
+
+numpy == 1.19.5
+pandas == 1.2.5
+scipy == 1.7.3
+
+ray == 1.9.2
+
+gurobipy==9.1.2
+
+tqdm == 4.64.1
+
+dill == 0.3.6
+ruamel.yaml==0.16.12
+# used for saving collected experiment results as hdf5 file via pandas
+tables == 3.6.1
+
+psutil == 5.8.0
+GPUtil == 1.4.0
+natsort == 7.1.1
+
+protobuf <= 3.20  # version 4 breaks ERAN
+
+# deep-opt dependencies
+pyparsing == 3.0.9
+matplotlib == 3.6.2
+h5py==2.10.0
+scikit-learn==0.22.1
+
+# eran dependencies
+tensorflow == 2.4.4
+onnx == 1.9.0
+onnxruntime == 1.10.0
+pycddlib == 2.1.6
+mpmath == 1.2.1
+pillow == 8.2.0  # 8.3.0 breaks cifar10 data loading

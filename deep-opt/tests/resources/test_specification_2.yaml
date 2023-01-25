@@ -1,0 +1,30 @@
+# Another test specification for deep-opt.
+# this should not be parsed as a property
+- &pi 3.1415
+- !Property
+  name: test1a
+  input_lower_bounds:
+    0: -0.5
+    4: *pi
+  input_upper_bounds:
+    1: 1.752
+    4: 4.0
+  output_constraint: !ExtremumConstraint out2 ==     strict_max(out)
+- !Property
+  name: test1b
+  input_lower_bounds:
+    0: -0.5
+    4: 2.7
+  input_upper_bounds:
+    1: 1.752
+    4: *pi
+  output_constraint: !ExtremumConstraint out2     eq smax(out)
+- !Property
+  name: test1c
+  input_lower_bounds:
+    0: -0.5
+    4: 2.7
+  input_upper_bounds:
+    1: 1.752
+    4: 3.125
+  output_constraint: !ExtremumConstraint out2   eq   strict_maximum(out)

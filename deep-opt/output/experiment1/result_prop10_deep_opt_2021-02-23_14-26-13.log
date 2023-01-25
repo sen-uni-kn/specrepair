@@ -1,0 +1,14 @@
+# DeepOpt logs
+specification:
+    - time: "2021-02-23_14-26-13"
+    - property: 10
+    - system_info: {name: phobos90, os: Linux}
+    - branch: nn_repair
+results:
+    - network: 4, 5
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 20}
+          execution_time: 46.22038769721985
+Mean execution time: 46.22038769721985

@@ -1,0 +1,5 @@
+*.csv filter=lfs diff=lfs merge=lfs -text lockable
+*.h5 filter=lfs diff=lfs merge=lfs -text
+*.pyt filter=lfs diff=lfs merge=lfs -text lockable
+*.pcl filter=lfs diff=lfs merge=lfs -text
+*.dill filter=lfs diff=lfs merge=lfs -text

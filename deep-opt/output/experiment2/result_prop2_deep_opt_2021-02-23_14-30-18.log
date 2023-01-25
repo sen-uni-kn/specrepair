@@ -1,0 +1,55 @@
+# DeepOpt logs
+specification:
+    - time: "2021-02-23_14-30-18"
+    - property: 2
+    - system_info: {name: phobos90, os: Linux}
+results:
+    - network: 25
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 5.59754801e+04 -5.25000002e+04  1.93333800e+00  4.05720312e+04
+ -1.69187496e+03  3.52700084e-01 -9.62867856e-01 -4.63876069e-01
+ -1.01426780e+00 -3.58109832e-01]
+          number of local extrema: {min: 5}
+          execution_time: 4.426224946975708
+    - network: 50
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 5.59476910e+04 -5.60000000e+04 -3.14159298e+00  1.14500000e+03
+ -5.60000000e+04 -7.22291097e-02 -2.78662910e+01 -3.11880779e+01
+ -3.50483513e+01 -1.05444847e+02]
+          number of local extrema: {min: 5}
+          execution_time: 4.317250728607178
+    - network: 100
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 5.59702705e+04 -4.96562513e+04 -6.43463709e-01  4.03771318e+03
+ -2.02033207e+03  9.24225388e+01  8.87182236e+01  9.12782364e+01
+ -2.84452381e+01  6.31555214e+01]
+          number of local extrema: {min: 5}
+          execution_time: 4.467828750610352
+    - network: 250
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 5.59548426e+04  5.11875001e+04 -3.14159298e+00  4.78771709e+03
+ -8.91835732e+03  2.69076973e-02 -1.59037523e-02 -2.39623189e-02
+ -2.22220570e-02 -9.88438725e-03]
+          number of local extrema: {min: 5}
+          execution_time: 4.749435901641846
+    - network: 500
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 5.59564764e+04  4.86733571e+04 -2.21642772e+00  2.37611513e+03
+ -1.63596523e+03  2.41823956e-01  1.82892069e-01  8.44217539e-02
+  1.36750296e-01 -9.95485708e-02]
+          number of local extrema: {min: 5}
+          execution_time: 12.657931804656982
+    - network: 1000
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 5.59642417e+04  3.45625001e+04  3.14159298e+00  1.78782043e+03
+ -5.96955382e+02  1.56572573e-02  7.10662454e-03  1.31084323e-02
+  6.37668371e-03  9.61101055e-03]
+          number of local extrema: {min: 5}
+          execution_time: 11.204427719116211
+Mean execution time: 2.353468664156066

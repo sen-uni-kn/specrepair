@@ -1,0 +1,17 @@
+The networks in this directory are original works
+from the Reluplex repository.
+(https://arxiv.org/abs/1702.01135, https://github.com/guykatzz/ReluplexCav2017).
+
+Reluplex citation:
+
+   G. Katz, C. Barrett, D. Dill, K. Julian and M. Kochenderfer.
+   Reluplex: An Efficient SMT Solver for Verifying
+   Deep Neural Networks. Proc. 29th Int. Conf. on Computer Aided
+   Verification (CAV). Heidelberg, Germany, July 2017.
+
+Reluplex networks copyright notice:
+
+    The neural network data files [...] are copyright (C)
+    2016-2017 by their authors and Stanford university, and are
+    distributed under the Creative Commons Attribution 4.0 International
+    License (https://creativecommons.org/licenses/by/4.0/).

@@ -1,0 +1,1328 @@
+INFO: ReLU network: NeuralNetwork(
+  (0): Linear(in_features=6, out_features=10, bias=True)
+  (1): ReLU()
+  (2): Linear(in_features=10, out_features=10, bias=True)
+  (3): ReLU()
+  (4): Linear(in_features=10, out_features=2, bias=True)
+)
+INFO: tanh network: NeuralNetwork(
+  (0): Linear(in_features=6, out_features=10, bias=True)
+  (1): Tanh()
+  (2): Linear(in_features=10, out_features=10, bias=True)
+  (3): Tanh()
+  (4): Linear(in_features=10, out_features=2, bias=True)
+)
+INFO: --------------------------------------------
+Local minimums (ReLU network robustness #0):
+--------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.14581, 0.3458, 0.28904, 0.47247, 0.22816, -0.15445, 3.45945, -3.57891)
+INFO: ReLU network robustness #0: does_hold: False; deep_opt_does_hold: False
+INFO: --------------------------------------------
+Local minimums (ReLU network robustness #1):
+--------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.28425, 0.24399, 0.26537, 0.4513, -0.14992, -0.22646, 2.10239, -2.29239)
+INFO: ReLU network robustness #1: does_hold: False; deep_opt_does_hold: False
+INFO: --------------------------------------------
+Local minimums (ReLU network robustness #2):
+--------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: ReLU network robustness #2: does_hold: True; deep_opt_does_hold: True
+INFO: --------------------------------------------
+Local minimums (ReLU network robustness #3):
+--------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.27207, 0.34946, 0.14638, 0.39304, -0.19333, -0.0305, -1.63192, 1.78184)
+INFO: ReLU network robustness #3: does_hold: False; deep_opt_does_hold: False
+INFO: --------------------------------------------
+Local minimums (ReLU network robustness #4):
+--------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.0, 0.41733, 0.16206, 0.49393, 0.08189, -0.17912, 2.5294, -2.02118)
+INFO: ReLU network robustness #4: does_hold: False; deep_opt_does_hold: False
+INFO: --------------------------------------------
+Local minimums (ReLU network robustness #5):
+--------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.55194, 0.91597, 0.20725, 0.5093, 0.00714, -0.24799, 1.34456, -1.42648)
+INFO: ReLU network robustness #5: does_hold: False; deep_opt_does_hold: False
+INFO: --------------------------------------------
+Local minimums (ReLU network robustness #6):
+--------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.4794, 0.72943, 0.33828, 0.51235, 0.25863, 0.29796, 4.41792, -5.27717)
+INFO: ReLU network robustness #6: does_hold: False; deep_opt_does_hold: False
+INFO: --------------------------------------------
+Local minimums (ReLU network robustness #7):
+--------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.50645, 0.69013, 0.22164, 0.54342, -0.23816, 0.2428, 3.64697, -3.98496)
+INFO: ReLU network robustness #7: does_hold: False; deep_opt_does_hold: False
+INFO: --------------------------------------------
+Local minimums (ReLU network robustness #8):
+--------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.43376, 0.6539, 0.27835, 0.46304, 0.15429, -0.23088, 1.61334, -1.85785)
+INFO: ReLU network robustness #8: does_hold: False; deep_opt_does_hold: False
+INFO: --------------------------------------------
+Local minimums (ReLU network robustness #9):
+--------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.14841, 0.02497, 0.23752, 0.62182, -0.24628, -0.1049, 2.76334, -3.03622)
+INFO: ReLU network robustness #9: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #10):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: ReLU network robustness #10: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #11):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.2039, 0.1659, 0.18461, 0.40859, -0.19949, -0.23925, -1.72732, 1.84043)
+INFO: ReLU network robustness #11: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #12):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.41075, 0.80725, 0.17115, 0.48262, -0.1008, -0.00558, -0.77797, 0.90038)
+INFO: ReLU network robustness #12: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #13):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.17007, 0.22329, 0.22267, 0.45785, 0.14526, 0.02769, 3.23543, -3.41023)
+INFO: ReLU network robustness #13: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #14):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.58581, 0.77647, 0.28159, 0.5278, -0.21205, 0.09451, 4.20042, -4.69349)
+INFO: ReLU network robustness #14: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #15):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.06349, 0.04971, 0.2991, 0.45742, -0.02655, -0.14202, 2.46095, -2.56563)
+INFO: ReLU network robustness #15: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #16):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.05625, 0.16333, 0.18808, 0.43965, -0.07103, -0.08516, -1.3254, 1.54091)
+INFO: ReLU network robustness #16: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #17):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.10816, 0.40249, 0.148, 0.46864, 0.24154, 0.0377, -2.45422, 2.73888)
+INFO: ReLU network robustness #17: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #18):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.54168, 0.76256, 0.34375, 0.48597, 0.31746, 0.17654, 4.50963, -5.42687)
+INFO: ReLU network robustness #18: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #19):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: ReLU network robustness #19: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #20):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: ReLU network robustness #20: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #21):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.07736, 0.45134, 0.26912, 0.47009, 0.3291, -0.20185, -2.94262, 3.11277)
+INFO: ReLU network robustness #21: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #22):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.45803, 0.67747, 0.3482, 0.50955, -0.19858, 0.1622, 3.791, -4.28017)
+INFO: ReLU network robustness #22: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #23):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.10677, 0.76956, 0.33402, 0.53143, 0.06245, -0.22445, 3.15767, -2.83869)
+INFO: ReLU network robustness #23: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #24):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: ReLU network robustness #24: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #25):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.60839, 0.65181, 0.09324, 0.41209, -0.04328, -0.14381, -1.08067, 0.95138)
+INFO: ReLU network robustness #25: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #26):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: ReLU network robustness #26: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #27):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: ReLU network robustness #27: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #28):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.05457, 0.36598, 0.20958, 0.41995, 0.21442, 0.02593, -2.05524, 2.39484)
+INFO: ReLU network robustness #28: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #29):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: ReLU network robustness #29: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #30):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: ReLU network robustness #30: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #31):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.51968, 0.78108, 0.2394, 0.3942, -0.28846, 0.16638, -5.84329, 5.71376)
+INFO: ReLU network robustness #31: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #32):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.03609, 0.59123, 0.2226, 0.35923, 0.21046, 0.13608, 4.2021, -3.84145)
+INFO: ReLU network robustness #32: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #33):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: ReLU network robustness #33: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #34):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: ReLU network robustness #34: does_hold: False; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #35):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: ReLU network robustness #35: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #36):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.23386, 0.05899, 0.23928, 0.52311, -0.19672, -0.14309, 2.44898, -2.7428)
+INFO: ReLU network robustness #36: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #37):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.64367, 0.24029, 0.06313, 0.43205, -0.17813, -0.34122, -2.5997, 2.24733)
+INFO: ReLU network robustness #37: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #38):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.0, 0.52366, 0.23817, 0.53761, -0.26346, -0.18151, 5.77607, -5.36994)
+INFO: ReLU network robustness #38: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #39):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.05197, 0.24968, 0.21448, 0.64323, -0.18508, 0.2132, 3.4764, -3.55573)
+INFO: ReLU network robustness #39: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #40):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.42128, 0.51981, 0.1638, 0.5332, -0.03731, 0.07199, 3.46321, -3.76898)
+INFO: ReLU network robustness #40: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #41):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.43559, 0.59134, 0.18247, 0.49418, 0.29775, -0.14982, 2.28706, -2.569)
+INFO: ReLU network robustness #41: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #42):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.37874, 0.54841, 0.2282, 0.50892, 0.2036, -0.06711, 4.17827, -4.49541)
+INFO: ReLU network robustness #42: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #43):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: ReLU network robustness #43: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #44):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.45807, 0.84828, 0.27197, 0.54378, 0.06178, -0.07371, -4.41364, 4.03877)
+INFO: ReLU network robustness #44: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #45):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: ReLU network robustness #45: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #46):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.30271, 0.2857, 0.18816, 0.38954, -0.09647, -0.32636, -1.52741, 1.57486)
+INFO: ReLU network robustness #46: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #47):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.10705, 0.45389, 0.27305, 0.40938, 0.22933, -0.04325, -3.17163, 3.33221)
+INFO: ReLU network robustness #47: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #48):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.51235, 0.6937, 0.23855, 0.55413, -0.15097, -0.12763, 3.1842, -3.4645)
+INFO: ReLU network robustness #48: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #49):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.07148, 0.03171, 0.30328, 0.46252, -0.17336, 0.02608, 2.47471, -2.61454)
+INFO: ReLU network robustness #49: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #50):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: ReLU network robustness #50: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #51):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.39498, 0.66353, 0.32222, 0.62606, -0.20123, 0.18462, 5.09875, -5.59084)
+INFO: ReLU network robustness #51: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #52):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: ReLU network robustness #52: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #53):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.51223, 0.72828, 0.31735, 0.46996, 0.12807, 0.03133, 2.94637, -3.57111)
+INFO: ReLU network robustness #53: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #54):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.40646, 0.92829, 0.13399, 0.60411, 0.17875, 0.00884, -0.92336, 0.95002)
+INFO: ReLU network robustness #54: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #55):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.4605, 0.54106, 0.09768, 0.38386, -0.19299, -0.11104, -3.54752, 3.70393)
+INFO: ReLU network robustness #55: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #56):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.0, 0.50568, 0.14169, 0.39295, 0.12133, 0.21617, 3.37925, -3.01567)
+INFO: ReLU network robustness #56: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #57):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: ReLU network robustness #57: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #58):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.45, 0.84354, 0.1014, 0.41213, -0.21618, -0.09567, 3.24571, -2.88165)
+INFO: ReLU network robustness #58: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #59):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.13305, 0.2671, 0.20436, 0.64529, 0.307, -0.3496, -1.68318, 1.60888)
+INFO: ReLU network robustness #59: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #60):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.45105, 0.7225, 0.23271, 0.48596, 0.15214, -0.22925, -2.25299, 2.05628)
+INFO: ReLU network robustness #60: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #61):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: ReLU network robustness #61: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #62):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.54314, 0.74923, 0.28323, 0.63859, 0.22887, 0.0011, 7.32113, -8.17919)
+INFO: ReLU network robustness #62: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #63):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.26478, 0.52005, 0.30366, 0.46211, 0.19304, 0.00038, 2.90279, -3.1243)
+INFO: ReLU network robustness #63: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #64):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.58822, 0.68204, 0.11776, 0.35059, -0.06969, -0.17587, -3.08255, 3.14843)
+INFO: ReLU network robustness #64: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #65):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.27969, 0.77618, 0.22817, 0.39664, -0.2801, 0.02238, 6.17983, -5.85237)
+INFO: ReLU network robustness #65: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #66):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.51224, 0.6998, 0.24455, 0.51871, 0.10266, 0.0229, 3.84276, -4.32993)
+INFO: ReLU network robustness #66: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #67):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.22457, 0.49348, 0.18218, 0.58606, 0.11495, 0.278, 3.2616, -3.41512)
+INFO: ReLU network robustness #67: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #68):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.11943, 0.29384, 0.07759, 0.53225, 0.14756, -0.28361, 1.36475, -0.87661)
+INFO: ReLU network robustness #68: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #69):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.0, 0.46876, 0.11892, 0.47258, -0.03679, 0.15484, 4.18047, -3.75888)
+INFO: ReLU network robustness #69: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #70):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.268, 0.64346, 0.08457, 0.46627, -0.20518, -0.08379, 3.36655, -2.94093)
+INFO: ReLU network robustness #70: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #71):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: ReLU network robustness #71: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #72):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: ReLU network robustness #72: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #73):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: ReLU network robustness #73: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #74):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.10997, 0.06616, 0.12524, 0.43852, 0.04369, 0.08667, -0.42072, 0.4531)
+INFO: ReLU network robustness #74: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #75):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.40767, 0.59859, 0.23194, 0.45504, 0.34698, -0.10001, 2.66477, -2.98261)
+INFO: ReLU network robustness #75: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #76):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.40977, 0.7193, 0.28442, 0.61322, 0.05383, 0.20532, 2.31959, -2.94782)
+INFO: ReLU network robustness #76: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #77):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.55869, 0.77628, 0.25333, 0.52654, 0.01426, 0.31033, 2.61058, -3.32913)
+INFO: ReLU network robustness #77: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #78):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.30373, 0.55971, 0.07833, 0.48999, 0.03189, 0.34059, -2.86245, 2.96715)
+INFO: ReLU network robustness #78: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #79):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.04671, 0.14793, 0.08725, 0.55554, 0.10439, -0.32787, 1.48695, -0.97354)
+INFO: ReLU network robustness #79: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #80):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: ReLU network robustness #80: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #81):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.61341, 0.4278, 0.12033, 0.42625, 0.17173, -0.28438, -0.25337, -0.15857)
+INFO: ReLU network robustness #81: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #82):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.32076, 0.60581, 0.32237, 0.55649, 0.33393, 0.20391, 4.67719, -5.39465)
+INFO: ReLU network robustness #82: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #83):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: ReLU network robustness #83: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #84):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.39045, 0.63856, 0.31751, 0.54938, -0.23098, 0.32303, 3.47688, -3.92078)
+INFO: ReLU network robustness #84: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #85):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.37975, 0.84287, 0.0859, 0.46522, 0.28862, -0.28829, 1.87741, -1.25592)
+INFO: ReLU network robustness #85: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #86):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: ReLU network robustness #86: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #87):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.34847, 0.62872, 0.16171, 0.63811, 0.2071, 0.12264, 1.87992, -2.21384)
+INFO: ReLU network robustness #87: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #88):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.28741, 0.46484, 0.1215, 0.38803, -0.16202, 0.07447, -3.8491, 4.17566)
+INFO: ReLU network robustness #88: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #89):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.02372, 0.55524, 0.15715, 0.48662, -0.12232, 0.13722, 4.28536, -3.93223)
+INFO: ReLU network robustness #89: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #90):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: ReLU network robustness #90: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #91):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.19342, 0.72003, 0.24483, 0.46373, -0.16942, -0.30158, 4.04232, -3.69007)
+INFO: ReLU network robustness #91: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #92):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.25195, 0.81481, 0.25395, 0.51498, -0.07373, 0.04038, 3.49131, -3.29845)
+INFO: ReLU network robustness #92: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #93):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.4083, 0.60601, 0.33, 0.46842, 0.23881, 0.0224, 5.71481, -6.27949)
+INFO: ReLU network robustness #93: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #94):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.32187, 0.21371, 0.22006, 0.46722, -0.07425, -0.22353, 2.09834, -2.35394)
+INFO: ReLU network robustness #94: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #95):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: ReLU network robustness #95: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #96):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: ReLU network robustness #96: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #97):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.18444, 0.43948, 0.17263, 0.44205, -0.32526, 0.24906, -3.34023, 3.70657)
+INFO: ReLU network robustness #97: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #98):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.04672, 0.5917, 0.19377, 0.39251, 0.22993, 0.16605, 2.7882, -2.42456)
+INFO: ReLU network robustness #98: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (ReLU network robustness #99):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.18203, 0.58572, 0.10515, 0.45606, -0.30085, 0.08659, 5.56008, -5.16666)
+INFO: ReLU network robustness #99: does_hold: False; deep_opt_does_hold: False
+INFO: ReLU: DeepOpt result deviated from the ground truth (ERAN) in 1 cases.
+Error encountered: False
+INFO: --------------------------------------------
+Local minimums (tanh network robustness #0):
+--------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.04581, 0.3458, 0.18904, 0.40574, 0.12816, -0.25445, 5.44044, -5.3469)
+INFO: tanh network robustness #0: does_hold: False; deep_opt_does_hold: False
+INFO: --------------------------------------------
+Local minimums (tanh network robustness #1):
+--------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.18425, 0.34399, 0.16537, 0.3513, -0.14992, -0.24249, 5.06637, -4.96748)
+INFO: tanh network robustness #1: does_hold: False; deep_opt_does_hold: False
+INFO: --------------------------------------------
+Local minimums (tanh network robustness #2):
+--------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.63526, 0.40829, 0.05808, 0.6056, 0.18329, -0.07365, -0.07534, 0.55886)
+INFO: tanh network robustness #2: does_hold: True; deep_opt_does_hold: False
+INFO: --------------------------------------------
+Local minimums (tanh network robustness #3):
+--------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.27207, 0.34946, 0.14638, 0.39304, -0.19072, -0.0305, -3.5106, 4.61823)
+INFO: tanh network robustness #3: does_hold: False; deep_opt_does_hold: False
+INFO: --------------------------------------------
+Local minimums (tanh network robustness #4):
+--------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.0, 0.40792, 0.14982, 0.59393, 0.08189, -0.18485, 5.52249, -5.44237)
+INFO: tanh network robustness #4: does_hold: False; deep_opt_does_hold: False
+INFO: --------------------------------------------
+Local minimums (tanh network robustness #5):
+--------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.45194, 0.91597, 0.10725, 0.5093, 0.0251, -0.24799, 3.42387, -3.28016)
+INFO: tanh network robustness #5: does_hold: False; deep_opt_does_hold: False
+INFO: --------------------------------------------
+Local minimums (tanh network robustness #6):
+--------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.4794, 0.72943, 0.33828, 0.51235, 0.25863, 0.29796, 4.71375, -4.08552)
+INFO: tanh network robustness #6: does_hold: False; deep_opt_does_hold: False
+INFO: --------------------------------------------
+Local minimums (tanh network robustness #7):
+--------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.50645, 0.69013, 0.22164, 0.54342, -0.23816, 0.1428, 4.77702, -4.03376)
+INFO: tanh network robustness #7: does_hold: False; deep_opt_does_hold: False
+INFO: --------------------------------------------
+Local minimums (tanh network robustness #8):
+--------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.43376, 0.6539, 0.27835, 0.46304, 0.15429, -0.33088, 1.84514, -1.17758)
+INFO: tanh network robustness #8: does_hold: False; deep_opt_does_hold: False
+INFO: --------------------------------------------
+Local minimums (tanh network robustness #9):
+--------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.14841, 0.12497, 0.23752, 0.62182, -0.24628, -0.1049, 5.21581, -4.47608)
+INFO: tanh network robustness #9: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #10):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: tanh network robustness #10: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #11):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.25626, 0.0659, 0.18261, 0.40859, -0.09949, -0.33921, -4.47087, 5.24918)
+INFO: tanh network robustness #11: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #12):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.41075, 0.80725, 0.17115, 0.48262, -0.2008, -0.00558, -0.40936, 0.21532)
+INFO: tanh network robustness #12: does_hold: True; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #13):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.07007, 0.32329, 0.12267, 0.439, 0.08061, -0.07231, 5.58122, -5.47297)
+INFO: tanh network robustness #13: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #14):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.58581, 0.77647, 0.28159, 0.5278, -0.31205, 0.09451, 4.17629, -3.65493)
+INFO: tanh network robustness #14: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #15):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.0, 0.14971, 0.1991, 0.35754, -0.02655, -0.24202, 4.65692, -4.5724)
+INFO: tanh network robustness #15: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #16):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.05625, 0.06333, 0.18808, 0.43965, -0.07103, -0.13181, -3.32737, 4.29902)
+INFO: tanh network robustness #16: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #17):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.08716, 0.40719, 0.148, 0.46864, 0.24154, 0.07998, -3.00247, 4.03904)
+INFO: tanh network robustness #17: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #18):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.54168, 0.76256, 0.34375, 0.48597, 0.25143, 0.17654, 3.25061, -2.88559)
+INFO: tanh network robustness #18: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #19):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: tanh network robustness #19: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #20):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: tanh network robustness #20: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #21):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.08294, 0.5443, 0.27406, 0.41084, 0.34421, -0.18794, -6.39806, 6.71137)
+INFO: tanh network robustness #21: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #22):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.45803, 0.67747, 0.3482, 0.50955, -0.19858, 0.1622, 4.9164, -4.14412)
+INFO: tanh network robustness #22: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #23):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.20677, 0.66956, 0.33402, 0.63143, 0.16245, -0.32445, 3.70381, -2.94639)
+INFO: tanh network robustness #23: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #24):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 2)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: tanh network robustness #24: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #25):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 2)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: tanh network robustness #25: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #26):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: tanh network robustness #26: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #27):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: tanh network robustness #27: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #28):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.05457, 0.36971, 0.20958, 0.41995, 0.21442, 0.02593, -1.68302, 2.73821)
+INFO: tanh network robustness #28: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #29):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: tanh network robustness #29: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #30):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: tanh network robustness #30: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #31):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.51968, 0.79837, 0.29017, 0.3942, -0.18846, 0.16638, -3.96887, 4.4677)
+INFO: tanh network robustness #31: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #32):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.13609, 0.49123, 0.31522, 0.45923, 0.31046, 0.13608, 5.08612, -4.32771)
+INFO: tanh network robustness #32: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #33):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: tanh network robustness #33: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #34):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.21956, 0.31517, 0.05939, 0.54769, 0.03235, 0.24458, -1.07836, 2.0067)
+INFO: tanh network robustness #34: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #35):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: tanh network robustness #35: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #36):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.23386, 0.15775, 0.23928, 0.52311, -0.19672, -0.14309, 5.39522, -4.65028)
+INFO: tanh network robustness #36: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #37):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.64367, 0.24029, 0.06313, 0.45089, -0.17813, -0.34122, 0.19449, 0.3083)
+INFO: tanh network robustness #37: does_hold: True; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #38):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.0, 0.45877, 0.23817, 0.53761, -0.26346, -0.18151, 5.15629, -5.05704)
+INFO: tanh network robustness #38: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #39):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.0, 0.34968, 0.11448, 0.54323, -0.18508, 0.1132, 5.48653, -5.35772)
+INFO: tanh network robustness #39: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #40):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.42128, 0.51981, 0.1638, 0.5332, -0.03731, 0.07199, 5.25715, -4.49242)
+INFO: tanh network robustness #40: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #41):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.43559, 0.59134, 0.18247, 0.49418, 0.29775, -0.14982, 2.7667, -1.9839)
+INFO: tanh network robustness #41: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #42):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.37874, 0.54841, 0.2282, 0.50892, 0.1036, -0.06711, 4.6342, -3.85092)
+INFO: tanh network robustness #42: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #43):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: tanh network robustness #43: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #44):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.45807, 0.84828, 0.3341, 0.54378, -0.03822, -0.07371, -5.2955, 5.35263)
+INFO: tanh network robustness #44: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #45):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: tanh network robustness #45: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #46):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.30271, 0.2857, 0.18816, 0.38954, -0.09647, -0.32636, -3.09254, 4.10777)
+INFO: tanh network robustness #46: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #47):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.10705, 0.45389, 0.21781, 0.40938, 0.22933, -0.04701, -3.98933, 4.91134)
+INFO: tanh network robustness #47: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #48):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.51235, 0.6937, 0.23855, 0.55413, -0.25097, -0.12763, 4.83586, -4.06088)
+INFO: tanh network robustness #48: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #49):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.07148, 0.03171, 0.30328, 0.46252, -0.17336, 0.02608, 4.97274, -4.24843)
+INFO: tanh network robustness #49: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #50):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: tanh network robustness #50: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #51):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.39498, 0.66353, 0.32222, 0.62606, -0.20123, 0.18462, 5.39248, -4.63908)
+INFO: tanh network robustness #51: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #52):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: tanh network robustness #52: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #53):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.41223, 0.82828, 0.21735, 0.36996, 0.02807, 0.03133, 2.8139, -2.98409)
+INFO: tanh network robustness #53: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #54):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: tanh network robustness #54: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #55):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.4605, 0.54106, 0.09768, 0.38386, -0.19299, -0.11829, -0.90648, 1.92423)
+INFO: tanh network robustness #55: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #56):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.07205, 0.40568, 0.24169, 0.49295, 0.22133, 0.29214, 5.44345, -4.69187)
+INFO: tanh network robustness #56: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #57):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: tanh network robustness #57: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #58):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.55, 0.74354, 0.18517, 0.51213, -0.21618, -0.19567, 3.04444, -2.37602)
+INFO: tanh network robustness #58: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #59):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.0335, 0.3671, 0.20724, 0.54529, 0.207, -0.2496, -1.82129, 2.81027)
+INFO: tanh network robustness #59: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #60):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.45105, 0.7225, 0.23271, 0.48596, 0.15214, -0.12925, -2.97393, 3.0699)
+INFO: tanh network robustness #60: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #61):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: tanh network robustness #61: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #62):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.54314, 0.74923, 0.28323, 0.63859, 0.1761, 0.0011, 4.47244, -3.73183)
+INFO: tanh network robustness #62: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #63):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.26478, 0.52005, 0.30366, 0.46211, 0.19304, 0.00038, 4.79657, -4.02071)
+INFO: tanh network robustness #63: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #64):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: tanh network robustness #64: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #65):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.27969, 0.77618, 0.22817, 0.39664, -0.2801, 0.02238, 2.76225, -3.37964)
+INFO: tanh network robustness #65: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #66):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.51224, 0.6998, 0.24455, 0.51871, 0.00266, 0.0229, 4.22513, -3.50441)
+INFO: tanh network robustness #66: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #67):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.22457, 0.49348, 0.18218, 0.58606, 0.11495, 0.278, 5.34005, -4.5819)
+INFO: tanh network robustness #67: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #68):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.10886, 0.25518, 0.12715, 0.61466, 0.21339, -0.29385, 5.59736, -5.53655)
+INFO: tanh network robustness #68: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #69):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.0, 0.36876, 0.11892, 0.47258, -0.03679, 0.15484, 5.44305, -5.34732)
+INFO: tanh network robustness #69: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #70):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.268, 0.54664, 0.08457, 0.56627, -0.20518, -0.08379, 4.77018, -4.73373)
+INFO: tanh network robustness #70: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #71):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: tanh network robustness #71: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #72):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: tanh network robustness #72: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #73):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: tanh network robustness #73: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #74):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.10997, 0.0, 0.12524, 0.43852, 0.04369, 0.08667, -0.48553, 1.23679)
+INFO: tanh network robustness #74: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #75):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.40767, 0.59859, 0.23194, 0.45504, 0.34698, -0.10001, 3.06053, -2.29733)
+INFO: tanh network robustness #75: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #76):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.40977, 0.7193, 0.28442, 0.61322, 0.05383, 0.20532, 3.59697, -2.96067)
+INFO: tanh network robustness #76: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #77):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.45869, 0.87628, 0.20244, 0.42654, 0.01426, 0.21033, 2.83108, -2.82733)
+INFO: tanh network robustness #77: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #78):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.30373, 0.55972, 0.086, 0.48999, -0.06811, 0.34059, -4.01105, 4.82748)
+INFO: tanh network robustness #78: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #79):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.03312, 0.09281, 0.16975, 0.63517, 0.168, -0.33777, 6.30872, -6.26978)
+INFO: tanh network robustness #79: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #80):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: tanh network robustness #80: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #81):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.61341, 0.34626, 0.12033, 0.52625, 0.17173, -0.28438, -0.46749, 0.91534)
+INFO: tanh network robustness #81: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #82):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.32076, 0.60581, 0.32237, 0.55649, 0.33393, 0.20391, 5.56866, -4.82328)
+INFO: tanh network robustness #82: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #83):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: tanh network robustness #83: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #84):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.39045, 0.63856, 0.31751, 0.54938, -0.23098, 0.32303, 5.105, -4.33667)
+INFO: tanh network robustness #84: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #85):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.41062, 0.84287, 0.0859, 0.46522, 0.18862, -0.18829, 3.33253, -3.35639)
+INFO: tanh network robustness #85: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #86):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: tanh network robustness #86: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #87):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.24847, 0.62872, 0.06598, 0.63811, 0.1707, 0.12264, 1.65258, -2.45258)
+INFO: tanh network robustness #87: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #88):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.26559, 0.46484, 0.18462, 0.38803, -0.1647, 0.07447, -3.67776, 4.80184)
+INFO: tanh network robustness #88: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #89):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.12372, 0.45524, 0.25715, 0.58662, -0.02232, 0.23722, 5.36983, -4.61757)
+INFO: tanh network robustness #89: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #90):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 2)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: tanh network robustness #90: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #91):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.29342, 0.62003, 0.34483, 0.56373, -0.06942, -0.20158, 4.15525, -3.35461)
+INFO: tanh network robustness #91: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #92):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.25195, 0.81481, 0.22974, 0.51498, -0.07373, 0.04038, 2.14989, -2.86756)
+INFO: tanh network robustness #92: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #93):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.4083, 0.60601, 0.33, 0.46842, 0.23881, 0.0224, 5.17757, -4.42004)
+INFO: tanh network robustness #93: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #94):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.32187, 0.21371, 0.22006, 0.46722, -0.07425, -0.22353, 5.44055, -4.69995)
+INFO: tanh network robustness #94: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #95):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: tanh network robustness #95: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #96):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ⚙️ Refining…
+INFO: 🥑 Getting peak bounds… (new count = 1)
+INFO: ⭕️ Global minimum does not violate specification.
+INFO: tanh network robustness #96: does_hold: True; deep_opt_does_hold: True
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #97):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.14219, 0.43948, 0.27188, 0.44205, -0.32526, 0.14906, -3.68279, 4.81386)
+INFO: tanh network robustness #97: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #98):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.14672, 0.4917, 0.29377, 0.49251, 0.32993, 0.26605, 5.47969, -4.7322)
+INFO: tanh network robustness #98: does_hold: False; deep_opt_does_hold: False
+INFO: ---------------------------------------------
+Local minimums (tanh network robustness #99):
+---------------------------------------------
+INFO: (0): sample_size = 100, iters = 10
+INFO: ❌ Counterexample found! (0.18203, 0.48572, 0.10515, 0.49648, -0.30085, 0.08659, 5.32394, -5.241)
+INFO: tanh network robustness #99: does_hold: False; deep_opt_does_hold: False
+INFO: tanh: DeepOpt result deviated from the ground truth (ERAN) in 3 cases.
+Error encountered: False

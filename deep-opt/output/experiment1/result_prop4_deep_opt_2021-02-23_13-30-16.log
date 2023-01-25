@@ -1,0 +1,260 @@
+# DeepOpt logs
+specification:
+    - time: "2021-02-23_13-30-16"
+    - property: 4
+    - system_info: {name: phobos90, os: Linux}
+    - branch: nn_repair
+results:
+    - network: 1, 1
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 8.911791563034058
+    - network: 1, 2
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 8.131261825561523
+    - network: 1, 3
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 7.804052829742432
+    - network: 1, 4
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 7.82274317741394
+    - network: 1, 5
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 7.814672470092773
+    - network: 1, 6
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 7.876845836639404
+    - network: 2, 1
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 7.9041078090667725
+    - network: 2, 2
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 8.233772039413452
+    - network: 2, 3
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 7.9119274616241455
+    - network: 2, 4
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 7.857046604156494
+    - network: 2, 5
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 7.853917598724365
+    - network: 2, 6
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 7.759525775909424
+    - network: 2, 7
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 7.875951051712036
+    - network: 2, 8
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 8.624097108840942
+    - network: 2, 9
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 7.767374753952026
+    - network: 3, 1
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 7.80633807182312
+    - network: 3, 2
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 7.797883033752441
+    - network: 3, 3
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 7.9359071254730225
+    - network: 3, 4
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 7.7850425243377686
+    - network: 3, 5
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 7.769547700881958
+    - network: 3, 6
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 7.871125936508179
+    - network: 3, 7
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 7.888913631439209
+    - network: 3, 8
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 7.868861436843872
+    - network: 3, 9
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 7.921254873275757
+    - network: 4, 1
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 7.8799238204956055
+    - network: 4, 2
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 7.8953166007995605
+    - network: 4, 3
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 7.903733015060425
+    - network: 4, 4
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 7.97736382484436
+    - network: 4, 5
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 7.877198934555054
+    - network: 4, 6
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 7.825985670089722
+    - network: 4, 7
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 7.8976593017578125
+    - network: 4, 8
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 7.90215802192688
+    - network: 4, 9
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 7.88086462020874
+    - network: 5, 1
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 7.977823734283447
+    - network: 5, 2
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 7.96283221244812
+    - network: 5, 3
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 8.078850984573364
+    - network: 5, 4
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 8.149974346160889
+    - network: 5, 5
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 8.145235300064087
+    - network: 5, 6
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 8.680640697479248
+    - network: 5, 7
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 8.848785161972046
+    - network: 5, 8
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 8.033952236175537
+    - network: 5, 9
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 0}
+          execution_time: 7.832282781600952
+Mean execution time: 1.8085483377368847

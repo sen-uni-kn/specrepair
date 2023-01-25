@@ -1,0 +1,235 @@
+# Test specification for deep-opt.
+# David Boetius 2020/02/19
+!Property
+name: test1a
+input_lower_bounds:
+  0: -0.5
+  4: 2.7
+input_upper_bounds:
+  1: 1.752
+  4: 3.125
+output_constraint: !ExtremumConstraint out2 ==     strict_max(out)
+---
+!Property
+name: test1b
+input_lower_bounds:
+  0: -0.5
+  4: 2.7
+input_upper_bounds:
+  1: 1.752
+  4: 3.125
+output_constraint: !ExtremumConstraint out2     eq smax(out)
+---
+!Property
+name: test1c
+input_lower_bounds:
+  0: -0.5
+  4: 2.7
+input_upper_bounds:
+  1: 1.752
+  4: 3.125
+output_constraint: !ExtremumConstraint out2   eq   strict_maximum(out)
+---
+!Property
+name: |
+  multiline property names
+  are a rather excotic need
+input_lower_bounds:
+  5: -1012
+  6: -905.73
+input_upper_bounds:
+  5: 1012
+  6: 0
+  7: 150.004
+output_constraint: !BoxConstraint out0 lt 15
+---
+!Property
+name: |
+  but who knows
+  oneday we might need them
+input_lower_bounds:
+  5: -1012
+  6: -905.73
+input_upper_bounds:
+  5: 1012
+  6: 0
+  7: 150.004
+output_constraint: !BoxConstraint out0 < 15
+---
+!Property
+name: "another property"
+input_lower_bounds:
+  0: 1.45
+  1: 9.33
+  2: -0.333
+input_upper_bounds:
+  0: 2.05
+  1: 100.994
+  2: 0.9311
+output_constraint: !ExtremumConstraint out3   != min(out)
+---
+!Property
+name: "another property"
+input_lower_bounds:
+  0: 1.45
+  1: 9.33
+  2: -0.333
+input_upper_bounds:
+  0: 2.05
+  1: 100.994
+  2: 0.9311
+output_constraint: !ExtremumConstraint out3 ne   minimum(out)
+---
+!Property
+name: another propery 2
+input_lower_bounds:
+  0: 4.51
+  1: 3.39
+  2: -3.33
+input_upper_bounds:
+  0: 0.52
+  1: 9.941
+  2: 9.311
+output_constraint: !BoxConstraint   out3  > 0.235
+---
+!Property
+name: another propery 2
+input_lower_bounds:
+  0: 4.51
+  1: 3.39
+  2: -3.33
+input_upper_bounds:
+  0: 0.52
+  1: 9.941
+  2: 9.311
+output_constraint: !BoxConstraint out3 gt 0.235
+---
+!Property
+name: another propery 3
+input_lower_bounds:
+  0: 4.51
+  100: -12e-15
+input_upper_bounds:
+  1: 9.941
+  75: +12.75e15
+output_constraint: !BoxConstraint out3 >= 0.235
+---
+!Property
+name: another propery 3
+input_lower_bounds:
+  0: 4.51
+  100: 12e-15
+input_upper_bounds:
+  1: 9.941
+  75: 12e+15
+output_constraint: !BoxConstraint out3 => 0.235
+---
+!Property
+name: another propery 3
+input_lower_bounds:
+  0: 4.51
+  100: 12E15
+input_upper_bounds:
+  1: 9.941
+  75: 13E16
+output_constraint: !BoxConstraint out3 ge 0.235
+---
+!Property
+name: another propery 4
+input_lower_bounds: {}
+input_upper_bounds:
+  9: 3.1415
+output_constraint: !BoxConstraint out3 =< 0.235
+---
+!Property
+name: another propery 4
+input_lower_bounds: {}
+input_upper_bounds:
+  9: 3.1415
+output_constraint: !BoxConstraint out3 <= 0.235
+---
+!Property
+name: another propery 4
+input_lower_bounds: {}
+input_upper_bounds:
+  9: 3.1415
+output_constraint: !BoxConstraint out3 le 0.235
+---
+!Property
+name: another propery 6
+input_lower_bounds:
+  0: -1.5
+input_upper_bounds:
+  1: -1.5
+output_constraint: !OutputsComparisonConstraint out2 =< out0
+---
+!Property
+name: another propery 6
+input_lower_bounds: {}
+input_upper_bounds: {}
+output_constraint: !OutputsComparisonConstraint out0 > out1
+---
+!Property
+name: another propery 6
+input_lower_bounds:
+  9: 3.1415
+input_upper_bounds: {}
+output_constraint: !OutputsComparisonConstraint out2 gt out3
+---
+!Property
+name: another property 5
+input_lower_bounds: {15: -4, 7: -3}
+input_upper_bounds: {15: 4, 7: 5}
+output_constraint: !MultiOutputExtremumConstraint max(out) in {out13, out14, out15, out16}
+---
+!Property
+name: another property 5
+input_lower_bounds: {15: -4, 7: -3}
+input_upper_bounds: {15: 4, 7: 5}
+output_constraint: !MultiOutputExtremumConstraint minimum(out) not_in [out0, out20]
+---
+!Property
+name: another property 5
+input_lower_bounds: {15: -4, 7: -3}
+input_upper_bounds: {15: 4, 7: 5}
+output_constraint: !MultiOutputExtremumConstraint strict_max(out) in (out13, out14, out15, out16)
+---
+!Property
+name: another property 5
+input_lower_bounds: {15: -4, 7: -3}
+input_upper_bounds: {15: 4, 7: 5}
+output_constraint: !MultiOutputExtremumConstraint smin(out) in out1, out4, out7, out100
+---
+!Property
+name: and and or property
+input_lower_bounds: {}
+input_upper_bounds:
+  103: 99.5
+output_constraint: !ConstraintOr
+  - !ExtremumConstraint out52 != min(out)
+  - !ConstraintAnd
+    - !ExtremumConstraint out17 == strict_maximum(out)
+    - !BoxConstraint out1003 < 12.753
+---
+!MultiVarProperty
+name: outputs match
+input_lower_bounds:
+  - {0: -3, 1: -2, 2: -1, 3: 0, 4: 1}
+  - {0: -3, 1: -2, 2: -1, 3: 0, 4: 1}
+input_upper_bounds: [{}, {}]
+numbers_of_inputs: [5, 5]
+output_constraint: !SameExtremumConstraint min(out) == min(out')
+---
+!MultiVarProperty
+name: yet more properties
+input_lower_bounds: [{}, {}]
+input_upper_bounds: [{}, {}]
+numbers_of_inputs: [5, 5]
+input_constraint: !DistanceConstraint L_inf distance <= 0.0675
+output_constraint: !SameExtremumConstraint max(out) == max(out')
+---
+!RobustnessPropertyFactory
+name_prefix: robustness property
+eps: 1e-4
+desired_extremum: smin
+

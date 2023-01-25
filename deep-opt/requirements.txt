@@ -1,0 +1,17 @@
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==1.8.0+cpu
+torchvision==0.9.0+cpu
+torchaudio==0.8.0
+pyparsing
+pandas
+tqdm
+ruamel.yaml==0.16.12  # API is unstable, therefore require a specific version
+onnx~=1.9.0
+# used for reading onnx models
+onnx2pytorch==v0.2.0
+scipy
+matplotlib
+ray
+h5py==2.10.0
+numpy==1.18.1
+scikit-learn==0.22.1

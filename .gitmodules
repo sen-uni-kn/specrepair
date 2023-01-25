@@ -1,0 +1,3 @@
+[submodule "eran"]
+	path = eran
+	url = git@github.com:cherrywoods/eran.git

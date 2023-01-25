@@ -1,0 +1,16 @@
+# DeepOpt logs
+specification:
+    - time: "2021-02-23_13-46-26"
+    - property: 8
+    - system_info: {name: phobos90, os: Linux}
+    - branch: nn_repair
+results:
+    - network: 2, 9
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 1.03837891e+04 -2.95601167e+00 -7.45639793e-02  6.36913857e+02
+  7.74023607e+02  5.27029514e-01  5.27029514e-01  1.53215351e+01
+  1.94707012e+00  1.55606441e+01]
+          number of local extrema: {min: 5}
+          execution_time: 2348.5114092826843
+Mean execution time: 2348.5114092826843

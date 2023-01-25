@@ -1,0 +1,292 @@
+# DeepOpt logs
+specification:
+    - time: "2021-02-23_09-08-45"
+    - property: 2
+    - system_info: {name: phobos90, os: Linux}
+    - branch: nn_repair
+results:
+    - network: 2, 1
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 6.07509142e+04 -8.23895292e-02 -2.85921276e+00  1.19998048e+03
+  1.51036113e-18  3.15448418e+01 -2.68561506e+00  1.54236794e+01
+  1.98383331e-02  1.57481232e+01]
+          number of local extrema: {min: 5}
+          execution_time: 9.447100639343262
+    - network: 2, 2
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 5.61968902e+04 -5.46303314e-02 -7.99805719e-01  1.19998534e+03
+  3.59079516e+01  3.29980659e+01 -1.35833311e+00  1.63076344e+01
+  2.45480156e+00  1.54781818e+01]
+          number of local extrema: {min: 5}
+          execution_time: 7.761679649353027
+    - network: 2, 3
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 6.07319705e+04 -6.85908161e-02  1.09646960e+00  1.20000000e+03
+  1.70304801e+01  2.90579910e+01 -7.62453556e-01  1.57861023e+01
+  2.90821409e+00  1.60081921e+01]
+          number of local extrema: {min: 5}
+          execution_time: 7.346560716629028
+    - network: 2, 4
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 5.81940619e+04  2.50849492e-02  3.03549427e+00  1.19796511e+03
+  1.20356477e+01  1.65416412e+01 -6.12318516e-01  1.50787048e+01
+  8.22905064e-01  1.52826004e+01]
+          number of local extrema: {min: 5}
+          execution_time: 7.971454858779907
+    - network: 2, 5
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 5.71165482e+04 -2.06785405e-02  3.14159298e+00  1.17164765e+03
+  6.00000000e+01  3.34830170e+01 -1.06274843e+00  1.76734581e+01
+  1.23512554e+00  1.80728722e+01]
+          number of local extrema: {min: 5}
+          execution_time: 6.917798042297363
+    - network: 2, 6
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 6.07325880e+04  4.49198095e-02 -3.36290118e-01  1.14500000e+03
+  5.45477580e+01  2.03780499e+01  3.14898014e-01  1.50345850e+01
+  2.08735418e+00  1.56499481e+01]
+          number of local extrema: {min: 5}
+          execution_time: 6.869350433349609
+    - network: 2, 7
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 5.63565876e+04 -2.57562367e-02 -7.31345509e-01  1.14500000e+03
+  1.27968983e+01  2.78273563e+01 -7.50844479e-01  1.63832188e+01
+  2.60974216e+00  1.57657623e+01]
+          number of local extrema: {min: 5}
+          execution_time: 7.5786802768707275
+    - network: 2, 8
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 5.61782181e+04  5.47026681e-03 -3.03786083e+00  1.18418577e+03
+  6.00000000e+01  3.59746170e+01 -6.57493114e-01  1.60436802e+01
+  3.29937315e+00  1.73418980e+01]
+          number of local extrema: {min: 5}
+          execution_time: 7.213375806808472
+    - network: 2, 9
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 5.91715621e+04 -4.13534326e-02 -3.14159298e+00  1.16960141e+03
+  2.79828008e+01  1.70161667e+01 -1.45758152e-01  1.46905861e+01
+  1.29956627e+00  1.49806519e+01]
+          number of local extrema: {min: 5}
+          execution_time: 6.387639760971069
+    - network: 3, 1
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 5.79646354e+04  7.70868653e-02  1.18503412e+00  1.19610897e+03
+  1.04504985e+01  3.30630722e+01  1.81992760e+01 -1.28311586e+00
+  1.82567024e+01  3.83300376e+00]
+          number of local extrema: {min: 5}
+          execution_time: 7.973910570144653
+    - network: 3, 2
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 5.67372105e+04 -2.75990352e-03 -3.02218131e+00  1.18496139e+03
+  7.96931450e+00  1.60397663e+01  1.56777191e+01  4.33735847e-01
+  1.56777172e+01  8.03767204e-01]
+          number of local extrema: {min: 5}
+          execution_time: 6.453066349029541
+    - network: 3, 3
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 288335}
+          execution_time: 9893.426985263824
+    - network: 3, 4
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 5.99520135e+04 -4.12524678e-02  2.07133504e+00  1.16656174e+03
+  6.00000000e+01  3.13101845e+01  1.69770756e+01 -2.91231012e+00
+  1.96137619e+01  1.24926758e+00]
+          number of local extrema: {min: 5}
+          execution_time: 7.428573846817017
+    - network: 3, 5
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 5.93125931e+04 -3.17673903e-03 -2.40870469e+00  1.18445829e+03
+  2.82533521e+01  2.92332878e+01  1.61968250e+01 -2.14453554e+00
+  1.46174583e+01  3.75076199e+00]
+          number of local extrema: {min: 5}
+          execution_time: 6.808325529098511
+    - network: 3, 6
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 5.67372675e+04  4.03711706e-02 -8.64928413e-01  1.14500000e+03
+  1.46732614e+01  1.64080963e+01  1.47045002e+01 -5.07035732e-01
+  1.58866882e+01  1.29554176e+00]
+          number of local extrema: {min: 5}
+          execution_time: 7.327544689178467
+    - network: 3, 7
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 5.98108816e+04  7.58642233e-02  2.72949518e+00  1.17966331e+03
+  2.69409593e+01  3.83949051e+01  1.56014900e+01 -1.16802359e+00
+  1.67320633e+01  2.85197353e+00]
+          number of local extrema: {min: 5}
+          execution_time: 7.435298204421997
+    - network: 3, 8
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 6.03606676e+04  3.85775582e-02  7.65617371e-01  1.20000000e+03
+  1.99435663e-23  2.71367207e+01  1.47730026e+01 -7.02458858e-01
+  1.53696938e+01  3.62833905e+00]
+          number of local extrema: {min: 5}
+          execution_time: 7.625795841217041
+    - network: 3, 9
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 6.03793852e+04 -7.38270013e-02  2.39531976e+00  1.16163390e+03
+  4.54273239e+00  5.42056465e+01  2.22633762e+01 -2.24583387e+00
+  2.28712254e+01  1.62398577e+00]
+          number of local extrema: {min: 5}
+          execution_time: 7.672175645828247
+    - network: 4, 1
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 5.71648558e+04  1.22266311e-02 -3.14159298e+00  1.20000000e+03
+  3.48613781e+01  1.75812817e+01  2.54291534e-01  1.55429020e+01
+  1.00538445e+00  1.45591936e+01]
+          number of local extrema: {min: 5}
+          execution_time: 6.087896347045898
+    - network: 4, 2
+        - optimize_by_property:
+          result: UNSAT
+          counter example: None
+          number of local extrema: {min: 94820}
+          execution_time: 3466.7472450733185
+    - network: 4, 3
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 6.07506018e+04  7.87719696e-02 -1.82701308e+00  1.16186695e+03
+  4.75743689e+01  2.62228050e+01 -1.03858614e+00  1.54702168e+01
+  5.55511951e-01  1.50731430e+01]
+          number of local extrema: {min: 5}
+          execution_time: 6.769381046295166
+    - network: 4, 4
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 6.07506109e+04 -1.33242849e-02 -3.14159231e+00  1.16142490e+03
+  4.76478045e+01  2.84440575e+01 -1.59046173e-01  1.49372921e+01
+ -1.26239300e-01  1.56924000e+01]
+          number of local extrema: {min: 5}
+          execution_time: 7.770178556442261
+    - network: 4, 5
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 5.79641853e+04 -6.01935539e-03  8.30620304e-01  1.20000000e+03
+  6.00000000e+01  2.77192936e+01  1.63548851e+00  1.55148487e+01
+ -3.59674931e-01  1.67951794e+01]
+          number of local extrema: {min: 5}
+          execution_time: 7.074371576309204
+    - network: 4, 6
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 5.98109613e+04 -6.18807992e-02  3.14159298e+00  1.14500000e+03
+  6.00000000e+01  3.24700623e+01 -2.27261400e+00  1.56966114e+01
+  5.21045113e+00  1.83333588e+01]
+          number of local extrema: {min: 5}
+          execution_time: 8.461674213409424
+    - network: 4, 7
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 6.03814176e+04 -4.89154283e-02  2.76420182e+00  1.20000000e+03
+  0.00000000e+00  2.57248344e+01 -2.56099701e-02  1.48548927e+01
+  1.34269047e+00  1.55805645e+01]
+          number of local extrema: {min: 5}
+          execution_time: 6.581830263137817
+    - network: 4, 8
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 5.85941120e+04  1.23746294e-01 -1.35522787e+00  1.20000000e+03
+  5.85123586e+01  5.25650063e+01 -8.08544159e+00  1.70224953e+01
+  2.96990490e+00  1.46733189e+01]
+          number of local extrema: {min: 5}
+          execution_time: 8.18695616722107
+    - network: 4, 9
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 5.61967652e+04 -1.47563706e-02 -3.41113492e-01  1.19878856e+03
+  3.11356175e+01  1.57471180e+01  6.32363796e-01  1.46864147e+01
+  1.56281471e-01  1.50628147e+01]
+          number of local extrema: {min: 5}
+          execution_time: 7.601449728012085
+    - network: 5, 1
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 5.98106823e+04 -4.92285530e-03  3.07536016e+00  1.15977872e+03
+  7.33799304e-03  2.36914005e+01  1.65672512e+01  1.82342100e+00
+  1.65646992e+01  2.32131624e+00]
+          number of local extrema: {min: 5}
+          execution_time: 7.361518383026123
+    - network: 5, 2
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 5.83162625e+04 -8.25969618e-03 -3.13793835e+00  1.14500000e+03
+  1.48048916e+01  1.83371601e+01  1.59016380e+01  7.50693798e-01
+  1.43354149e+01  1.54823208e+00]
+          number of local extrema: {min: 5}
+          execution_time: 6.126551866531372
+    - network: 5, 3
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 6.04460866e+04 -5.73972863e-02 -3.49812671e-01  1.18213266e+03
+  5.32723822e+01  1.60051670e+01  1.59921741e+01  6.41374111e-01
+  1.58311043e+01  1.28117180e+00]
+          number of local extrema: {min: 25}
+          execution_time: 16.56109046936035
+    - network: 5, 4
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 5.83350340e+04  2.01373142e-02 -2.08506315e+00  1.14980472e+03
+  6.72425324e-03  2.48888245e+01  1.55906143e+01 -4.05895710e-01
+  1.49701605e+01  1.11218452e+00]
+          number of local extrema: {min: 5}
+          execution_time: 6.638768672943115
+    - network: 5, 5
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 5.71647954e+04  5.39334086e-02 -2.65276939e+00  1.20000000e+03
+  3.33157265e-16  2.35046482e+01  1.49915991e+01  8.35067272e-01
+  1.47108707e+01  1.52678490e+00]
+          number of local extrema: {min: 5}
+          execution_time: 6.636780738830566
+    - network: 5, 6
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 6.07318425e+04 -1.72789960e-02 -6.56161800e-01  1.19159709e+03
+  2.00913257e+01  1.94523811e+01  1.49573355e+01  7.98211098e-02
+  1.60516891e+01  1.70682907e+00]
+          number of local extrema: {min: 5}
+          execution_time: 6.610851764678955
+    - network: 5, 7
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 5.98111698e+04  2.66388974e-02  2.91142484e+00  1.18479597e+03
+  6.00000000e+01  3.13604984e+01  1.49922523e+01 -4.88710880e-01
+  1.50991840e+01  1.28630304e+00]
+          number of local extrema: {min: 5}
+          execution_time: 6.885267496109009
+    - network: 5, 8
+        - optimize_by_property:
+          result: SAT
+          counter example: [5.98083416e+04 4.91957720e-02 3.14159298e+00 1.20000000e+03
+ 7.33754918e-10 2.48962822e+01 1.49479294e+01 1.27239704e-01
+ 1.57749901e+01 1.25093079e+00]
+          number of local extrema: {min: 5}
+          execution_time: 7.61124587059021
+    - network: 5, 9
+        - optimize_by_property:
+          result: SAT
+          counter example: [ 5.99329824e+04  2.20653626e-02 -2.50766898e+00  1.18430725e+03
+  1.25758058e-14  2.82919559e+01  1.49287596e+01 -9.80743885e-01
+  1.62858906e+01 -3.39651108e-02]
+          number of local extrema: {min: 5}
+          execution_time: 7.409931659698486
+Mean execution time: 6.191696617898615

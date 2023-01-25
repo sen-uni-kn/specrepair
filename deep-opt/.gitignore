@@ -1,0 +1,8 @@
+# Project exclude paths
+/venv/
+
+# Python cache
+**/__pycache__/
+
+# local package installation
+*.egg-info
