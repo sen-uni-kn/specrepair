@@ -14,7 +14,14 @@ This repository contains the source code for the arXiv publication
 "A Robust Optimisation Perspective on Counterexample-Guided Repair of Neural Networks"
 by David Boetius, Stefan Leue and Tobias Sutter.
 ```bibtex
-TODO
+@Article{BoetiusLeueSutter2023,
+  author = {David Boetius and Stefan Leue and Tobias Sutter},
+  title = {A Robust Optimisation Perspective on Counterexample-Guided Repair of Neural Networks},
+  journal = {CoRR},
+  volume = {abs/2301.11342},
+  year = {2023},
+  doi = {10.48550/arXiv.2301.11342},
+}
 ```
 
 **Naming:** For historical reasons, SpecAttack is called *DeepOpt* in this 
