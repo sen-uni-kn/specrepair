@@ -14,6 +14,19 @@ set -e  # exit when any command fails
 echo "Installing git"
 sudo apt install git git-lfs -y
 
+if ! git status &>/dev/null; then
+  echo "Project root directory is not a git directory. Setting up git...";
+  git init
+  git add .gitignore .gitattributes .gitmodules
+  git commit -m "Initial commit"
+  if [ "$(ls -A eran/)" ]; then
+      echo "The eran/ directory is not empty. Please remove manually to add ERAN as a submodule."
+  else
+      rm -r eran/
+  fi
+  git submodule add https://github.com/cherrywoods/eran eran
+fi
+
 echo "Updating submodules"
 git submodule update --init eran
 
