@@ -11,7 +11,7 @@ For more information on SpecRepair, see
 or [arXiv](https://arxiv.org/abs/2106.01917).
 
 This repository contains the source code for the arXiv publication 
-"A Robust Optimisation Perspective on Counterexample-Guided Repair of Neural Networks"
+["A Robust Optimisation Perspective on Counterexample-Guided Repair of Neural Networks"](https://arxiv.org/abs/2301.11342)
 by David Boetius, Stefan Leue and Tobias Sutter.
 ```bibtex
 @Article{BoetiusLeueSutter2023,
