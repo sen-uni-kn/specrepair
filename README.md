@@ -1,6 +1,6 @@
 # SpecRepair / A Robust Optimisation Perspective on Counterexample-Guided Repair of Neural Networks
 SpecRepair is a tool for neural network repair. 
-It aims at creating neural networks with mathematical safety guarantees,
+It aims at creating neural networks with mathematical safety guarantees.
 Safety guarantees are mandatory for applying neural networks in safety critical domains.
 To obtain such guarantees, 
 SpecRepair uses the [ERAN verifier](https://github.com/eth-sri/eran/).
