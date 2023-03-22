@@ -19,7 +19,7 @@ if ! git status &>/dev/null; then
   git init
   git add .gitignore .gitattributes .gitmodules
   # set a user to make sure the command does not fail when there is not global git user (repo was just initialised)
-  git commit -c user.name='SpecRepair' -c user.email='specrepair@sen.uni.kn' -m "Initial commit"
+  git -c user.name='SpecRepair' -c user.email='specrepair@sen.uni.kn' commit -m "Initial commit"
   if [ "$(ls -A eran/)" ]; then
       echo "The eran/ directory is not empty. Please remove manually to add ERAN as a submodule."
   else
