@@ -11,7 +11,7 @@ For more information on SpecRepair, see
 or [arXiv](https://arxiv.org/abs/2106.01917).
 
 This repository contains the source code for the publication 
-["A Robust Optimisation Perspective on Counterexample-Guided Repair of Neural Networks"](https://arxiv.org/abs/2301.11342)
+["A Robust Optimisation Perspective on Counterexample-Guided Repair of Neural Networks"](https://openreview.net/forum?id=z3hnQh5UJd)
 by David Boetius, Stefan Leue and Tobias Sutter, accepted at ICML 2023.
 You can download the experimental data presented in this paper
 from [Zenodo](https://doi.org/10.5281/zenodo.7938547).
