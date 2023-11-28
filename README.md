@@ -1,7 +1,7 @@
 # SpecRepair / A Robust Optimisation Perspective on Counterexample-Guided Repair of Neural Networks
 SpecRepair is a tool for neural network repair. 
 It aims at creating neural networks with mathematical safety guarantees.
-Safety guarantees are mandatory for applying neural networks in safety critical domains.
+Safety guarantees are mandatory for applying neural networks in safety-critical domains.
 To obtain such guarantees, 
 SpecRepair uses the [ERAN verifier](https://github.com/eth-sri/eran/).
 Repair is based on constrained optimisation using the L1 penalty function method,
@@ -32,6 +32,12 @@ repository and SpecRepair is called *L1 penalty repair*.
 For more information on SpecRepair and SpecAttack, see 
 [SPIN 2022](https://doi.org/10.1007/978-3-031-15077-7_5)
 or [arXiv](https://arxiv.org/abs/2106.01917).
+
+## Downloading
+Pulling the Git LFS files (`git lfs pull`) from this repository currently fails with an error concerning git LFS bandwidth.
+This means that some large networks stored in LFS will not be available.
+To work around this, you can either download the data from [Zenodo](https://doi.org/10.5281/zenodo.7938547)
+or fork the repository and clone your fork (this will use your own git LFS bandwidth). 
 
 ## Prerequisites
 This project is tested on Ubuntu 2022.04 LTS.
