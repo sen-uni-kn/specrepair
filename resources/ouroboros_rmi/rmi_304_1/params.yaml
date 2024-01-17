@@ -1,9 +1,0 @@
-second_stage_size: 304
-tolerance:
-    first_stage: 1
-    second_stage: 100
-dataset:
-    size: 190000
-    distribution: uniform
-    seed: 904431094489158
-    maximum: 1000000.0

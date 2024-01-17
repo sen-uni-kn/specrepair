@@ -11,8 +11,8 @@ fi
 
 set -e  # exit when any command fails
 
-echo "Installing git"
-sudo apt install git git-lfs -y
+echo "Installing System Level Requirements"
+sudo apt install git git-lfs wget p7zip-full -y
 
 if ! git status &>/dev/null; then
   echo "Project root directory is not a git directory. Setting up git...";
@@ -31,11 +31,19 @@ fi
 echo "Updating submodules"
 git submodule update --init eran
 
-echo "Pull large files (git lfs). This may take a while."
+echo "Downloading additional files. This may take a while."
 git-lfs install
 git lfs pull
+wget https://zenodo.org/records/7938547/files/resources.7z
+echo "6372512f94ae910573af38b67c1a887e resources.7z" \
+  md5sum -c || (
+    echo "Downloading resources from Zenodo failed (checksum did not match). Aborting.";
+    exit;
+  )
+7z x resources.7z
+rm resources.7z
 
-echo "Installing System Level Requirements (python 3.8, m4, build-essential, cmake, autoconf, libtool, texlive-latex-base, libgmp, libprotobuf, protobuf-compiler)"
+echo "Installing Further System Level Requirements (python 3.8, m4, build-essential, cmake, autoconf, libtool, texlive-latex-base, libgmp, libprotobuf, protobuf-compiler)"
 sudo apt install software-properties-common -y
 sudo add-apt-repository ppa:deadsnakes/ppa -y
 sudo apt-get install python3.8 python3.8-venv python3.8-dev -y
