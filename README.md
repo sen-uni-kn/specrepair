@@ -33,11 +33,13 @@ For more information on SpecRepair and SpecAttack, see
 [SPIN 2022](https://doi.org/10.1007/978-3-031-15077-7_5)
 or [arXiv](https://arxiv.org/abs/2106.01917).
 
-## Downloading
-Pulling the Git LFS files (`git lfs pull`) from this repository currently fails with an error concerning git LFS bandwidth.
-This means that some large networks stored in LFS will not be available.
-To work around this, you can either download the data from [Zenodo](https://doi.org/10.5281/zenodo.7938547)
-or fork the repository and clone your fork (this will use your own git LFS bandwidth). 
+## Data
+This repository does neither contains the networks and datasets
+used in the experiments, not the experimental results.
+You can either download this data from [Zenodo](https://doi.org/10.5281/zenodo.7938547).
+The networks and datasets necessary for running the experiments
+are also downloaded automatically, when you run the `setup.sh` script
+(more on this script below).
 
 ## Prerequisites
 This project is tested on Ubuntu 2022.04 LTS.
@@ -60,7 +62,8 @@ this README is placed and run
 ```
 This automatically installs system dependencies and
 creates a new python environment in `./env-nn-repair`. 
-The script also install the ERAN verifier. 
+The script also install the ERAN verifier and downloads 
+some resource files. 
 To pull dependencies, the script requires an internet connection.
 Also, the script queries you for sudo rights to install system dependencies.
 Alternatively, you may go through the script and execute each command manually.
